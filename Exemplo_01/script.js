@@ -33,6 +33,7 @@
 let data = new Date();
 
 //com a função formatDate, vamos "filtrar" o "new Date()"
+//resolve a task de criar uma função que retorne como parametro uma data em formato de string!!
 function formatDate(data){
   let newDate = new Date(data)
   return `${newDate.getDate()}/${newDate.getMonth()+1}/${newDate.getFullYear()}`

@@ -8,4 +8,9 @@ const ano = String(data.getFullYear()).padStart(2, "0");
 
 const dataAtual = `${dia}/${mes}/${ano}`
 
-console.log(dataAtual)
+const randomDate = new Date(2023,10,01)
+
+//só isso n eh suficiente pra retornar string
+const randomDateString = new Date('2023-10-01 12:00:00')
+
+console.log(randomDateString)
