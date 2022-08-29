@@ -19,3 +19,6 @@ function formatarData(data){
 }
 
 console.log(formatarData(data));
+
+//criar um objeto do tipo data com a data de hoje
+const dataHoje = new Date();// instância padrão
