@@ -29,3 +29,13 @@
 //  data.setFullYear(2019)
 //  data.setMonth(01)
 //  data.setDate(12)
+
+let data = new Date();
+
+//com a função formatDate, vamos "filtrar" o "new Date()"
+function formatDate(data){
+  let newDate = new Date(data)
+  return `${newDate.getDate()}/${newDate.getMonth()+1}/${newDate.getFullYear()}`
+}
+
+console.log(formatDate(data))
