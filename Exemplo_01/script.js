@@ -5,7 +5,7 @@
 
 //Como pode ser inicializado?
 //Padrão: 
-//  new Date //Data atual sem formatação
+//  new Date() //Data atual sem formatação
 //Por Parâmetro: 
 //  new Date('2020-10-01 12:00:00') // retorna em string
 //  new Date(1995,11,17)//ano, mês, dia
