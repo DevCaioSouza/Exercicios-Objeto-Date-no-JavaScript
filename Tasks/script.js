@@ -17,7 +17,7 @@ function formatarData(data){
   const retornaMes = new Date(data);
   //getMonth vai retornar o número em formato JS, ou seja, 
   //de 0 a 11. 
-  return `${retornaMes.getMonth()}`;
+  return `${retornaMes.getMonth()+1}`;
 }
 
 console.log(formatarData(data));
