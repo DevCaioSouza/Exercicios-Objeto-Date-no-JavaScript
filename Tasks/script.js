@@ -11,11 +11,13 @@ const randomDateB = new Date(2023,9,01);//Mês vai de 0 a 9
 //de string, exemplo: “01/07/2022” e retorna o mês. 
 //nesse exemplo deveria retornar 07
 
-const data = new Date('2022-07-01');
+const data = new Date('2022-07-01 12:00:00');
 
 function formatarData(data){
-  const retornaMes = data.getMonth();
-  return `${retornaMes}`;
+  const retornaMes = new Date(data);
+  //getMonth vai retornar o número em formato JS, ou seja, 
+  //de 0 a 11. 
+  return `${retornaMes.getMonth()}`;
 }
 
 console.log(formatarData(data));
